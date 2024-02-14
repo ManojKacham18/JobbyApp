@@ -1,0 +1,148 @@
+.jp-bg-container {
+  background-color: #000000;
+  padding: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.filters-section {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-right: 2em;
+  flex-grow: 1;
+}
+.profile-cont {
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pfDiv {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  border-radius: 17px;
+  padding: 2em;
+}
+.pf-img {
+  width: 3em;
+}
+.pfH {
+  font-size: large;
+  color: #6366f1;
+  margin-bottom: 0px;
+}
+hr {
+  width: 100%;
+  color: rgb(255, 255, 255, 0.3);
+}
+.fcH {
+  color: #ffffff;
+  font-size: medium;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+.toeList {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.toeListItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.inp1 {
+  margin-right: 1em;
+  height: 1.5em;
+  width: 1.5em;
+}
+label {
+  font-weight: normal;
+  font-size: medium;
+}
+.searchDiv {
+  border: solid 1px rgb(255, 255, 255, 0.3);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20em;
+  height: 2.5em;
+  align-self: flex-start;
+}
+.searchInp {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 0.7em;
+  border: 0px;
+  padding-left: 1em;
+  outline: none;
+  flex-grow: 1;
+}
+.searchIconDiv {
+  color: rgb(255, 255, 255, 0.5);
+  height: 100%;
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  border: 0px;
+}
+.labl {
+  display: none;
+}
+.retry-btn {
+  color: rgb(255, 255, 255);
+  background-color: #4f46e5;
+  border-radius: 5px;
+  border: 0px;
+  padding: 6px;
+  font-weight: bold;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: 'Roboto';
+}
+.part2cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.part2Cont2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 10;
+}
+.abc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding-top: 4em;
+}
+.noJobsImg {
+  height: 15em;
+}
+.njH {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.jobsList {
+  list-style-type: none;
+}

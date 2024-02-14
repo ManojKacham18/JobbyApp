@@ -1,0 +1,13 @@
+.not-found-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: black;
+  font-family: 'Roboto';
+}
+.not-found-img {
+  height: 30%;
+}

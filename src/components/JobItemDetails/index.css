@@ -1,0 +1,82 @@
+.job-item-container {
+  width: 100vw;
+  background-color: black;
+  max-width: 100vw;
+  color: white;
+}
+.jid-main-div {
+  padding: 40px;
+  max-width: 100vw;
+}
+.jid-div-2 {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  color: white;
+}
+.star-icon {
+  color: yellow;
+  margin-right: 10px;
+}
+.skills-ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.w-33 {
+  width: 33%;
+  margin-bottom: 30px;
+}
+.w-40 {
+  width: 40%;
+}
+.w-60 {
+  width: 60%;
+}
+.lic-img {
+  width: 100%;
+}
+.similar-jobs-maindiv {
+  background-color: #272727;
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 7px;
+}
+.loader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
+  height: 90vh;
+}
+.jid-div2 {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.href-ele p {
+  margin-right: 0.7em;
+}
+.href-ele {
+  color: #4f46e5;
+}
+.desH {
+  font-size: larger;
+}
+.jid-img3 {
+  width: 3em;
+  margin-right: 1em;
+}
+.lacP {
+  margin-top: 0px;
+}
+.lacdiv1 {
+  align-self: flex-start;
+  margin-right: 1em;
+}

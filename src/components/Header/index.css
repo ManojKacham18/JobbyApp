@@ -1,0 +1,42 @@
+.nav-menu-mobile {
+  display: none;
+  font-family: 'Roboto';
+}
+.nav-header {
+}
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8em;
+  padding-left: 4em;
+  padding-right: 4em;
+  background-color: #272727;
+}
+.website-logo {
+  width: 7em;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ffffff;
+  list-style-type: none;
+}
+.nav-link {
+  margin-right: 2em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.logout-desktop-btn {
+  color: rgb(255, 255, 255);
+  background-color: #4f46e5;
+  border-radius: 5px;
+  border: 0px;
+  padding: 6px;
+  font-weight: bold;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: 'Roboto';
+}
